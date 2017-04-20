@@ -1075,13 +1075,13 @@ a.active span:after {
       display: inline-block;
       border-right: 1px solid #959595;
       font: 400 16px 'Pragmatica';
+      line-height: 35px;
       &:last-child {
         border-right: none;
       }
       a {
         width: 100%;
         line-height: 35px;
-        padding: 0 12px;
         color: #737373;
         transition: 300ms;
         &:hover {
