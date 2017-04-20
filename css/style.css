@@ -841,16 +841,20 @@ a.active span:after {
 
 .pagination {
   text-align: center;
-  margin-top: 46px; }
+  margin-top: 46px;
+  font-size: 0; }
   .pagination ul {
     display: inline-block;
     border: 1px solid #959595; }
     .pagination ul li {
+      width: 34px;
       display: inline-block;
-      border-right: 1px solid #959595; }
+      border-right: 1px solid #959595;
+      font: 400 16px 'Pragmatica'; }
       .pagination ul li:last-child {
         border-right: none; }
       .pagination ul li a {
+        width: 100%;
         line-height: 35px;
         padding: 0 12px;
         color: #737373;

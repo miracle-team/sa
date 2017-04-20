@@ -1066,16 +1066,20 @@ a.active span:after {
 .pagination {
   text-align: center;
   margin-top: 46px;
+  font-size: 0;
   ul {
     display: inline-block;
     border: 1px solid #959595; 
     li {
+      width: 34px;
       display: inline-block;
       border-right: 1px solid #959595;
+      font: 400 16px 'Pragmatica';
       &:last-child {
         border-right: none;
       }
       a {
+        width: 100%;
         line-height: 35px;
         padding: 0 12px;
         color: #737373;
