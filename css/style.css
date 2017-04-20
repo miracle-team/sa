@@ -816,7 +816,10 @@ a.active span:after {
 
 .catalog-item {
   border-top: 1px solid #959595;
-  padding-top: 36px; }
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .catalog-item:last-child {
+    border-bottom: 1px solid #959595; }
   .catalog-item__img {
     width: 310px; }
   .catalog-item__content {
@@ -826,7 +829,7 @@ a.active span:after {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    padding-bottom: 37px; }
+    padding-bottom: 40px; }
   .catalog-item__text {
     line-height: 1.6; }
   .catalog-item-price {
@@ -835,5 +838,30 @@ a.active span:after {
       font-size: 20px;
       font-weight: 700;
       line-height: 1.6; }
+
+.pagination {
+  text-align: center;
+  margin-top: 46px; }
+  .pagination ul {
+    display: inline-block;
+    border: 1px solid #959595; }
+    .pagination ul li {
+      display: inline-block;
+      border-right: 1px solid #959595; }
+      .pagination ul li:last-child {
+        border-right: none; }
+      .pagination ul li a {
+        line-height: 35px;
+        padding: 0 12px;
+        color: #737373;
+        transition: 300ms; }
+        .pagination ul li a:hover {
+          background: #737373;
+          color: #fff; }
+        .pagination ul li a.active {
+          color: #000; }
+          .pagination ul li a.active:hover {
+            background: #fff;
+            color: #000; }
 
 /*# sourceMappingURL=style.css.map */
