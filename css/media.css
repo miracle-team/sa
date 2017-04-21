@@ -109,6 +109,10 @@
     line-height: 1.3;
     font-size: 16px;
   }
+  
+  .article-content {
+    width: 67%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -200,6 +204,18 @@
   .catalog-item {
     margin: 0 auto !important;
   }
+  
+  .article-content__head {
+    font-size: 22px;
+  }
+  .article-content {
+    width: 60%;
+  }
+  .article-content p {
+    padding-bottom: 25px;
+    line-height: 1.3;
+  }
+  
 }
 
 @media only screen and (max-width: 767px) {
@@ -369,6 +385,24 @@
   }
   .pagination {
     margin-bottom: 40px;
+  }
+  
+  .article-content {
+    width: auto;
+    float: none;
+  }
+  .article-content__head {
+    font-size: 20px;
+  }
+  .article-content__head br {
+    display: none;
+  }
+  .article-sidebar {
+    float: none;
+    text-align: center;
+  }
+  .article-sidebar {
+    margin-bottom: 25px;
   }
 }
 
