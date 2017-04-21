@@ -112,7 +112,7 @@ a img {
       font-size: 20px;
       font-weight: 700;
       text-transform: uppercase;
-      margin-bottom: 16px;
+      margin-bottom: 10px;
       line-height: 1.2; }
     .showcase-item__text {
       font-size: 16px;
@@ -151,7 +151,7 @@ a img {
     top: 100%;
     left: 0;
     width: 440px;
-    padding: 10px 20px 22px 35px;
+    padding: 10px 20px 5px 35px;
     background: #ffde2f;
     opacity: 0;
     visibility: hidden;
@@ -712,7 +712,8 @@ a.active span:after {
 /* Product */
 .sidebar {
   float: left;
-  width: 290px; }
+  width: 290px;
+  padding-bottom: 50px; }
   .sidebar-nav {
     margin-bottom: 77px; }
     .sidebar-nav-item {
@@ -833,7 +834,8 @@ a.active span:after {
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 28px;
-    line-height: 1.3; }
+    line-height: 1.3;
+    color: #000; }
   .catalog-item__text {
     line-height: 1.6; }
   .catalog-item-price {
